@@ -14,13 +14,19 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 3000); // 3 detik
+    const timer = setTimeout(() => {
+      setLoading(false);
+      // Reset scroll ke atas setelah loading selesai
+      window.scrollTo({ top: 0, behavior: "instant" });
+    }, 3000);
+
     return () => clearTimeout(timer);
   }, []);
 
+
   if (loading) {
     return (
-      <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-gradient-to-br from-[#0d0d2b] via-black to-[#1a1a40]">
+      <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-gradient-to-br from-[#0d0d2b] via-black to-[#1a1a40] overflow-hidden">
         {/* Galaxy Stars */}
         <div className="absolute w-full h-full overflow-hidden">
           <div className="w-full h-full animate-[spin_60s_linear_infinite] bg-[url('/stars.png')] bg-cover opacity-20" />
@@ -30,7 +36,7 @@ export default function Home() {
         <div className="relative z-10 flex flex-col items-center gap-4">
           <div className="w-20 h-20 border-4 border-cyan-400 border-t-transparent rounded-full animate-spin" />
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white animate-pulse">
-            Welcome to the Galaxy 🌌
+            Welcome to the Galaxy
           </h1>
         </div>
       </div>
