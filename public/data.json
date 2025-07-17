@@ -1,0 +1,54 @@
+{
+  "adminPin": "$2b$12$beKYSnFLvfBL1HX7R5HAYeQQSVbNyOnwXKLuaRurPQiXV0udwR512",
+  "profile": {
+    "fullname": "Yonieq Praba Saputra",
+    "jobtitle": "Fullstack Developer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elite, sed do eiusmod tempor incididunt ut labore dan dolore magna aliqua. Dengan sedikit racun, yang merupakan latihan keras yang tidak bisa dilakukan oleh orang lain sebagai konsekuensinya. ",
+    "cv": "/uploads/cv-1752684145393.pdf",
+    "projectExperience": [
+      {
+        "projectName": "Project 1",
+        "jobtitle": "Fullstack Developer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elite, sed do eiusmod tempor incididunt ut labore dan dolore magna aliqua. Dengan sedikit racun, yang merupakan latihan keras yang tidak bisa dilakukan oleh orang lain sebagai konsekuensinya. "
+      },
+      {
+        "projectName": "Project 2",
+        "jobtitle": "UI/UX Engineer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elite, sed do eiusmod tempor incididunt ut labore dan dolore magna aliqua. Dengan sedikit racun, yang merupakan latihan keras yang tidak bisa dilakukan oleh orang lain sebagai konsekuensinya. "
+      },
+      {
+        "projectName": "Project 3",
+        "jobtitle": "Backend Developer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elite, sed do eiusmod tempor incididunt ut labore dan dolore magna aliqua. Dengan sedikit racun, yang merupakan latihan keras yang tidak bisa dilakukan oleh orang lain sebagai konsekuensinya. "
+      }
+    ],
+    "companyExperience": [
+      {
+        "companyName": "Company 1",
+        "jobtitle": "Fullstack Developer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elite, sed do eiusmod tempor incididunt ut labore dan dolore magna aliqua. Dengan sedikit racun, yang merupakan latihan keras yang tidak bisa dilakukan oleh orang lain sebagai konsekuensinya. ",
+        "fromYear": "2024",
+        "toYear": "2025"
+      },
+      {
+        "companyName": "Company 2",
+        "jobtitle": "Backend Developer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elite, sed do eiusmod tempor incididunt ut labore dan dolore magna aliqua. Dengan sedikit racun, yang merupakan latihan keras yang tidak bisa dilakukan oleh orang lain sebagai konsekuensinya. ",
+        "fromYear": "2024",
+        "toYear": "2023"
+      },
+      {
+        "companyName": "Company 3",
+        "jobtitle": "Software Engineer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elite, sed do eiusmod tempor incididunt ut labore dan dolore magna aliqua. Dengan sedikit racun, yang merupakan latihan keras yang tidak bisa dilakukan oleh orang lain sebagai konsekuensinya. ",
+        "fromYear": "2023",
+        "toYear": "2022"
+      }
+    ],
+    "whatsapp": "https://api.whatsapp.com/send/?phone=6282323689258",
+    "telegram": "https://t.me/niq503",
+    "linkedin": "https://www.linkedin.com/in/yonieq-praba-saputra-335351170/",
+    "github": "https://github.com/yonieq",
+    "email": "yonieqpraba@gmail.com"
+  }
+}
