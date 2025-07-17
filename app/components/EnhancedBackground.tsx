@@ -31,7 +31,7 @@ export default function EnhancedBackground() {
             if (!ctx) return;
 
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            for (let star of stars) {
+            for (const star of stars) {
                 star.y += star.speed;
                 if (star.y > canvas.height) {
                     star.y = 0;

@@ -52,7 +52,7 @@ export default function About() {
                     transition={{ delay: 0.2, duration: 0.6 }}
                     viewport={{ once: true }}
                 >
-                    I'm a passionate developer who enjoys crafting elegant, performant, and accessible user interfaces. Below is a summary of my professional journey:
+                    I&apos;m a passionate developer who enjoys crafting elegant, performant, and accessible user interfaces. Below is a summary of my professional journey:
                 </motion.p>
 
                 {loading ? (

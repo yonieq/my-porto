@@ -157,7 +157,7 @@ export default function InputPin({ onSuccess }: InputPinProps) {
                                 value={digit}
                                 onChange={(e) => handleChange(e.target.value, idx)}
                                 onKeyDown={(e) => handleKeyDown(e, idx)}
-                                ref={(el) => (inputRefs.current[idx] = el)}
+                                ref={(el) => { inputRefs.current[idx] = el }}
                                 disabled={loading || lockout}
                                 className={clsx(
                                     "w-14 h-16 md:w-12 md:h-13 text-center text-3xl rounded-lg bg-[#1f2937] text-cyan-300 border-2 transition-all outline-none shadow-lg",

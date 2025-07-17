@@ -51,7 +51,7 @@ export default function Contact() {
             <div className="max-w-5xl mx-auto">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl font-bold text-teal-400 glow-text mb-4">
-                        Let's Connect
+                        Let&apos;s Connect
                     </h2>
                     <p className="text-gray-300 text-lg">
                         Want to collaborate or just say hi? Reach out through the form or connect with me on social media.

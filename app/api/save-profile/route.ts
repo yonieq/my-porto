@@ -79,8 +79,13 @@ export async function POST(req: Request) {
         await writeFile(dataFilePath, JSON.stringify(existing, null, 2));
 
         return NextResponse.json({ success: true });
-    } catch (err: any) {
-        console.error("Save profile error:", err.message || err);
-        return NextResponse.json({ success: false, message: "Internal error" }, { status: 500 });
+    } catch (err: unknown) {
+        const errorMessage =
+            err instanceof Error ? err.message : "Unknown error";
+        console.error("Save profile error:", errorMessage);
+        return NextResponse.json(
+            { success: false, message: "Internal error" },
+            { status: 500 }
+        );
     }
 }
